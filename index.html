@@ -4,96 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <style>
+      body {
+        font-family: "Montserrat";
+      }
+      .navbar h1 {
+        font-family: "Bitcount Grid Double";
+        font-weight: 600;
+      }
+    </style>
   </head>
   <body>
-    <section class="navbar">
-      <h1>Dippeus</h1>
-      <a href="#ringkasan">Ringkasan</a>
-      <a href="#penghargaan">Penghargaan</a>
-      <a href="#riwayatPendidikan">Riwayat Pendidikan</a>
-      <a href="#selfReflection">Self-reflection</a>
-      <a href="#futureGoals">Future Goals</a>
-    </section>
-    <section class="hero">
-      <section>
-        <img src="4x6 (1).jpg" width="100" alt="Self Portrait" />
+    <section class="navbar-container">
+      <section class="navbar">
+        <h1>DIPPEUS</h1>
+        <a href="#ringkasan">Home</a>
+        <a href="#ringkasan">About Me</a>
+        <a href="#ringkasan">My Projects</a>
+
       </section>
-      <section>
+    </section>
+
+    <section class="hero">
+      <section class="hero-image-container">
+        <img src="Self.jpeg" alt="Self Portrait" />
+      </section>
+      <section class="hero-main-description">
         <h1>Muhammad Pradipta Arya Anindita</h1>
         <hr />
-        <table>
-          <tr>
-            <td>Email</td>
-            <td>:</td>
-            <td>
-              <a href="mpradipta.arya03@gmail.com"
-                >mpradipta.arya03@gmail.com</a
-              >
-            </td>
-          </tr>
-          <tr>
-            <td>Nomor Hp</td>
-            <td>:</td>
-            <td>0816999832</td>
-          </tr>
-        </table>
+        <p>Membuat pengalaman digital yang menarik dan mudah diakses.</p>
       </section>
     </section>
     <section class="main">
-      <section id="ringkasan">
-        <h1>Ringkasan</h1>
-        <hr />
-        <p>
-          Pengembang Perangkat Lunak Junior dengan rasa ingin tahu tinggi,
-          observan, dan berorientasi pada proses. Antusias mempelajari teknologi
-          baru, mengembangkan keterampilan melalui tantangan, serta
-          berkontribusi positif dalam tim dengan pendekatan metodis dan empatik.
-        </p>
+      <section class="main-left">
+        <section id="ringkasan">
+          <h1>Ringkasan Diri</h1>
+          <hr />
+          <p>
+            Mahasiswa Ilmu Komputer dengan ketertarikan pada eksplorasi
+            teknologi baru dan pengembangan keterampilan melalui pemecahan
+            masalah. Terbiasa bekerja dalam tim dengan pendekatan terstruktur
+            serta memperhatikan dinamika kolaborasi.
+          </p>
+        </section>
+        <section id="penghargaan">
+          <h1>Penghargaan</h1>
+          <hr />
+          <ul>
+            <li>
+              <p>
+                Provincial Best TOEIC Score SMK English Challenge 2023 - 980/990
+                Score
+              </p>
+            </li>
+            <li>
+              <p>
+                Juara 2 - Desain Laman LKS SMK Tingkat Kota Jakarta Timur 2023
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section id="riwayatPendidikan">
+          <h1>Riwayat Pendidikan</h1>
+          <hr />
+          <ul>
+            <li>
+              <strong> Universitas Negeri Jakarta (2024 - Sekarang) </strong
+              ><br />
+              <p class="major">S1 Ilmu Komputer</p>
+              <p>
+                Aktif sebagai staff departemen ORIGAMI di BEMP Ilmu Komputer
+              </p>
+            </li>
+            <li>
+              <strong> SMK Negeri 46 Jakarta (2021 - 2024) </strong><br />
+              <p class="major">Rekayasa Perangkat Lunak</p>
+              <p>
+                Menjadi bagian dari tim pengembang projek sistem e-commerce
+                sekolah berbasis Laravel
+              </p>
+            </li>
+          </ul>
+        </section>
       </section>
-      <section id="penghargaan">
-        <h1>Penghargaan</h1>
-        <hr />
-        <ul>
-          <li>
-            <p>
-              Provincial Best TOEIC Score SMK English Challenge 2023 - 980/990
-              Score
-            </p>
-          </li>
-          <li>
-            <p>
-              Juara 2 - Desain Laman LKS SMK Tingkat Kota Jakarta Timur 2023
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section id="riwayatPendidikan">
-        <h1>Riwayat Pendidikan</h1>
-        <hr />
-        <ul>
-          <li>
-            <strong> Universitas Negeri Jakarta (2024 - Sekarang) </strong>
-          </li>
-          <li>
-            <strong> SMK Negeri 46 Jakarta (2021 - 2024) </strong>
-          </li>
-        </ul>
-      </section>
-      <section id="selfReflection">
-        <h1>Self-reflection</h1>
-        <hr />
-        <p>I fall easily to procrastination and inactivity.</p>
-      </section>
-      <section id="futureGoals">
-        <h1>Future Goals</h1>
-        <hr />
-        <p>
-          I want to be an educational entertainment content creator, making
-          programming content in the style of gaming content.
-        </p>
+      <section class="main-right">
+        <section id="selfReflection">
+          <h1>Refleksi Diri</h1>
+          <hr />
+          <p>
+            Tantangan utama saya ada pada tahap memulai, karena saya mudah
+            menunda. Meski begitu, ketika sudah berjalan, saya mampu bekerja
+            dengan fokus tinggi dan berkomitmen hingga tuntas.
+          </p>
+        </section>
+        <section id="futureGoals">
+          <h1>Tujuan di Masa Depan</h1>
+          <hr />
+          <p>
+            Tujuan saya adalah menjadikan belajar programming sebagai hiburan
+            dengan menghadirkan konten bergaya gaming yang menarik dan mudah
+            dipahami.
+          </p>
+        </section>
+        <section id="contactMe">
+          <h1>Kontak Saya</h1>
+          <hr />
+          <a href="https://www.linkedin.com/in/muhammad-pradipta-arya-anindita-5aba18324/" target="_blank"> <i class="fi fi-brands-linkedin"></i> </a
+          ><a href="https://github.com/Pradippy-nxs" target="_blank"> <i class="fi fi-brands-github"></i> </a
+          ><a href="mailto: mpradipta.arya03@gmail.com"> <i class="fi fi-sr-envelope"></i> </a>
+        </section>
       </section>
     </section>
-    <section class="footer"></section>
+    <section class="footer">
+      <section class="copyright">
+        <p>&copy; Muhammad Pradipta Arya Anindita</p>
+      </section>
+    </section>
   </body>
 </html>
